@@ -10,7 +10,7 @@ into your local maven repository or include them via maven as a dependency.
 
 In order to use this you need to have a functional maven installation on your local machine. If not go ahead and set it up https://maven.apache.org/
 
-Clone this repository onto your local machine and execute the following 2 commands in order to install them into your local maven repository
+Clone this repository onto your local machine, switch to the version branch you need and execute the following 2 commands in order to install them into your local maven repository
 ```sh
 mvn install:install-file -Dfile=./bukkit-1.14.4-R0.1-SNAPSHOT.jar -DgroupId=<group-id> -DartifactId=<artifact-id> -Dversion=<version> -Dpackaging=jar
 mvn install:install-file -Dfile=./craftbukkit-1.14.4-R0.1-SNAPSHOT.jar -DgroupId=<group-id> -DartifactId=<artifact-id> -Dversion=<version> -Dpackaging=jar
